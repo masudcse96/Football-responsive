@@ -64,16 +64,19 @@ body{
  /*========================
   Players details part start
  ==========================*/
+ 
 .players{
      display: grid;
      grid-template-columns: repeat(3,1fr);
      gap: 5%; 
      margin:5% 10%;
+     margin-bottom: 30%;
  }
  .player{
      margin-bottom: 5%;
      box-shadow: 10px 10px 40px rgb(204, 195, 195);
      border-radius: 10px;
+     height: 80vh;
     
  }
  .player-img img{
@@ -95,3 +98,45 @@ body{
  /*========================
   Players details part end
  ==========================*/
+
+.match-news{
+    height: 80vh;
+    margin-left: 10%;
+}
+.match-news h1{
+    font-size: 50px;
+    color: #a31a7a;
+}
+
+.match img{
+    width: 300px;
+    
+}
+ .match{
+     display: flex;
+     margin-top: 3%;
+ }
+.match-info{
+    margin:5%;
+}
+.match-info a{
+    text-decoration: none;
+    color: red;
+
+}
+.match-info p:first-child{
+    padding-bottom: 2%;
+    margin-top:-5%;
+    margin-bottom: 3%;
+}
+.match-info p:last-child{
+    color: rgb(105, 103, 103);
+}
+.match-info h2{
+    text-transform: uppercase;
+    margin-bottom: 5%;
+    color: rgb(53, 50, 50);
+}
+.match-info h2:hover{
+    color: red;
+}
