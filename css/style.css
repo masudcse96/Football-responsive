@@ -17,7 +17,7 @@ body{
     display: flex;
     padding: 5%;
     align-items: center;
-    transition-duration: 1.5s;
+    transition-duration: .5s;
 }
 .header-title{
     margin-left: 5%;
@@ -47,15 +47,14 @@ body{
 .header-img img{
     width: 80%;
 }
-
 /*header hover part*/
-.header:hover{
+.header:hover {
     background-color: #a31a7a;
     transform:rotate(360deg) ;
 }
-.header-btn:hover{
-    background-color:#2D25A0;
 
+.header:hover .header-btn{
+    background-color:#2D25A0;
 }
 /*==================
   Header part end
@@ -73,10 +72,9 @@ body{
      margin-bottom: 30%;
  }
  .player{
-     margin-bottom: 5%;
      box-shadow: 10px 10px 40px rgb(204, 195, 195);
      border-radius: 10px;
-     height: 80vh;
+     height: 75vh;
     
  }
  .player-img img{
@@ -85,7 +83,6 @@ body{
  }
  .player-description{
      padding-left: 3%;
-     padding-bottom: 6%;
  }
  .player-description h2{
      text-align: justify;
