@@ -97,8 +97,9 @@ body{
  ==========================*/
 
 .match-news{
-    height: 80vh;
+    height: 90vh;
     margin-left: 10%;
+    margin-bottom: 15%;
 }
 .match-news h1{
     font-size: 50px;
@@ -136,4 +137,40 @@ body{
 }
 .match-info h2:hover{
     color: red;
+}
+
+/*logo part*/
+.logo{
+    height: 120px;
+}
+.logo img{
+    width:25%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+.media-icon{
+    height:15vh;
+    text-align: center;
+    
+}
+.media-icon span{
+    padding-left: 10px;
+}
+
+.fa-brands, .fa-solid{
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(177, 174, 174);
+    border-radius: 50%;
+}
+/*footer part*/
+.footer{
+    height: 10vh;
+}
+.footer p{
+    text-align: center;
+    margin-left: 2%;
 }
